@@ -2,16 +2,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
-import { ReceptaComponent } from './recepta/recepta.component';
+
+import { RecetasComponent } from './recetas/recetas.component';
+import { RecetaComponent } from './recetas/receta.component';
+
 
 @NgModule({
   declarations: [
-    ReceptaComponent
+
+    RecetasComponent,
+    RecetaComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [ReceptaComponent]
+  bootstrap: [RecetasComponent]
 })
 export class AppModule { }

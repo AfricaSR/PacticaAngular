@@ -1,0 +1,14 @@
+.receta {
+    width: 40%;
+    height: 100px;
+}
+
+.steps {
+    height: 100px;
+    overflow: hidden;
+}
+
+.show {
+    overflow: visible;
+    height: auto;
+}
